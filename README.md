@@ -1,2 +1,3 @@
 # bamboo
-GUI jsonflie generator for lotus version3
+GUI jsonflie generator for lotus version3. Can convert v2 to v3, not support v1.
+Read more in help.
