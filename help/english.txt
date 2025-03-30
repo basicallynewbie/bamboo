@@ -1,0 +1,20 @@
+Will check before save.
+This program can deal with incus v3 jsonfile and convert v2 to v3, not support v1.
+This program will not correct you imported contain!
+You can import jsonfile with wrong contain, but doesn't mean it will work!
+This program will not import Incompatible jsonfile.
+Due to tech issue, this program cannot tell whether a value contains a number or string or boolean when you import a jsonfile.
+Due to tech issue, validation will fail when you import a jsonfile with wrong contain, but check is always valid.
+Spinbox will display wrong thing when you import a jsonfile with wrong contain, but doesn't mean it will store the wrong value.
+Every entry except target_folder and manual and replace and escape and ignore cannot contain \/:*?"<>| .
+Due to tech issue, there is no validation in dict.
+replace can contain everything.
+Excapt replace, only manual and target_folder and escape and ignore can contain \/: .
+ratio can only store bettwen 0.0 and 1.0.
+index and length cannot lower than 0.
+You can add new key-value pair by press + button, key side can only use _ as special character. Key name doesn't important but order.
+Be careful not to beyond 260 characters if using Windows.
+You can remove custom pair by press - button. Be careful it cannot be restored.
+Like in incus title and target_folder are always needed. template is require when series is true.
+You can translate by looking language/english.json and help/english.txt. Must use UTF-8 format.
+You can set language and font and font size in config.txt, default is: {"language": "english", "font": "TkTextFont", "size": 15}.
